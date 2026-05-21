@@ -127,11 +127,11 @@ export const Footer = ({ data }: { data: any }) => {
                   </span>
 
                   <address className="not-italic text-slate-900 font-medium text-sm leading-relaxed">
-                    Alpha Solutions Center
+                    Alpha Solutions
                     <br />
-                    Main Boulevard, Gulberg III
+                    Main Machinery Store street#6 Slamatpura
                     <br />
-                    Lahore 54660
+                    Lahore cantt
                   </address>
                 </div>
               </div>
