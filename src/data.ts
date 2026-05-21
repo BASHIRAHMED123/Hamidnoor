@@ -75,7 +75,7 @@ export const data: PortfolioData = {
     title: "Certificate of Appointment",
     organization: "Chairman Education Pogram",
     date: "10 April, 2026",
-    imageUrl: "/Certificate/pic1%20(1).jpeg"
+    imageUrl: "./Certificate/certificate1.jpeg"
   },
 
   {
@@ -83,7 +83,7 @@ export const data: PortfolioData = {
     title: "Character and provisional Certificate",
     organization: "Lahore Board",
     date: "06 August 2003",
-    imageUrl: "/Certificate/pic1%20(25).jpeg"
+    imageUrl: "./Certificate/certificate25.jpeg"
   },
 
   {
@@ -91,42 +91,42 @@ export const data: PortfolioData = {
     title: "Agile Management Certification",
     organization: "Stanford Continuing Studies",
     date: "2021",
-    imageUrl: "/Certificate/pic1%20(10).jpeg"
+    imageUrl: "./Certificate/certificate10.jpeg"
   },
   {
     id: "c4",
     title: "Membership Certificate",
     organization: "Smart Entrepreneure Society",
     date: "2026-2027",
-    imageUrl: "/Certificate/pic1%20(2).jpeg"
+    imageUrl: "./Certificate/certificate2.jpeg"
   },
   {
     id: "c5",
     title: "Silver Membership Certificate",
     organization: "Smart Entrepreneure Society",
     date: "2026-2027",
-    imageUrl: "/Certificate/pic1%20(3).jpeg"
+    imageUrl: "./Certificate/certificate3.jpeg"
   },
   {
     id: "c6",
     title: "Silver Membership Certificate",
     organization: "Smart Entrepreneure Society",
     date: "2026-2027",
-    imageUrl: "/Certificate/pic1%20(4).jpeg"
+    imageUrl: "./Certificate/certificate4.jpeg"
   },
   {
     id: "c7",
     title: "Marksheet 2001",
     organization: "",
     date: "2026-2027",
-    imageUrl: "/Certificate/pic1%20(5).jpeg"
+    imageUrl: "./Certificate/certificate5.jpeg"
   },
   {
     id: "c8",
     title: "College Character certificate",
     organization: "Garrison Postgraduate College(M) Lahore Cantt",
     date: "2009",
-    imageUrl: "/Certificate/pic1%20(6).jpeg"
+    imageUrl: "./Certificate/certificate6.jpeg"
   }
   ,
   {
@@ -134,7 +134,7 @@ export const data: PortfolioData = {
     title: " certificate",
     organization: "National Productivity Orgnization",
     date: "May 01, 2026",
-    imageUrl: "/Certificate/pic1%20(7).jpeg"
+    imageUrl: "./Certificate/certificate7.jpeg"
   }
   ,
   {
@@ -142,91 +142,92 @@ export const data: PortfolioData = {
     title: " certificate",
     organization: "UET Lahore",
     date: "6th-7th December, 2012",
-    imageUrl: "/Certificate/pic1%20(8).jpeg"
+    imageUrl: "./Certificate/certificate8.jpeg"
   },
   {
     id: "c11",
     title: " certificate",
     organization: "Fatima Foundation",
     date: "24th March, 2009",
-    imageUrl: "/Certificate/pic1%20(9).jpeg"
+    imageUrl: "./Certificate/certificate9.jpeg"
   },
   {
     id: "c12",
     title: "Intrenship certificate",
     organization: "Al-Khawarizmi Institute of CS university of Technology",
     date: "August 10, 2012",
-    imageUrl: "/Certificate/pic1%20(11).jpeg"
+    imageUrl: "./Certificate/certificate11.jpeg"
   },
   {
     id: "c13",
     title: " Provisional certificate",
     organization: "UET Lahoew",
     date: "04/03/2015",
-    imageUrl: "/Certificate/pic1%20(12).jpeg"
+    imageUrl: "./Certificate/certificate12.jpeg"
   },
   {
     id: "c14",
     title: " certificate",
     organization: "Pakistan Enterprise Development Facility",
     date: "15th January, 2017",
-    imageUrl: "/Certificate/pic1%20(13).jpeg"
+    imageUrl: "./Certificate/certificate13.jpeg"
   },
   {
     id: "c15",
     title: " University Transcipt",
     organization: "UET Lahore",
     date: "2009",
-    imageUrl: "/Certificate/pic1%20(15).jpeg"
+    imageUrl: "./Certificate/certificate15.jpeg"
   },
   {
     id: "c16",
     title: " Distinction Certificate",
     organization: "Mansoor Academy",
     date: "2005",
-    imageUrl: "/Certificate/pic1%20(16).jpeg"
+    imageUrl: "./Certificate/certificate16.jpeg"
   },
   {
     id: "c17",
     title: " Certificate",
     organization: "IB&M",
     date: "2ND MAY, 2003",
-    imageUrl: "/Certificate/pic1%20(17).jpeg"
+    imageUrl: "./Certificate/certificate17.jpeg"
   },
   {
     id: "c18",
     title: "Marksheet Certificate",
     organization: "Fedral Board Of Islamabad",
     date: "2009",
-    imageUrl: "/Certificate/pic1%20(18).jpeg"
+    imageUrl: "./Certificate/certificate18.jpeg"
   },
   {
     id: "c19",
     title: "Certificate",
     organization: "LEOPARDSHIP",
     date: "1st February, 2025",
-    imageUrl: "/Certificate/pic1%20(20).jpeg"
+    imageUrl: "./Certificate/certificate20.jpeg"
   },
   {
     id: "c20",
     title: " Certificate",
     organization: "Fatima Foundation",
     date: "2009",
-    imageUrl: "/Certificate/pic1%20(21).jpeg"
+    imageUrl: "./Certificate/certificate21.jpeg"
   },
   {
     id: "c21",
     title: " Bachelor's of Business Administration ",
     organization: "UET Lahore",
     date: "31st August 2013",
-    imageUrl: "/Certificate/pic1%20(22).jpeg"
+    imageUrl: "./Certificate/certificate22.jpeg"
   },
   {
     id: "c22",
     title: " Certificate ",
     organization: "IB&M",
     date: "",
-    imageUrl: "/Certificate/pic1%20(23).jpeg"
+    imageUrl: "./Certificate/certificate23.jpeg"
+  
   }
 ]
 };
