@@ -114,10 +114,10 @@ export const Certificates = ({ data }: { data: Certificate[] }) => {
                 
                 <div className="aspect-[4/3] bg-slate-100 rounded-2xl overflow-hidden border border-slate-200 mb-8 relative group">
                   <img 
-                    src={selectedCert.imageUrl} 
-                    alt={selectedCert.title}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
+                        src={selectedCert.imageUrl} 
+                        alt={selectedCert.title}
+                        className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
+/>  
                   <div className="absolute inset-0 bg-brand-900/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                      <span className="bg-white text-brand-900 px-6 py-3 rounded-full font-bold shadow-xl">Official Credential</span>
                   </div>

@@ -88,9 +88,9 @@ export const data: PortfolioData = {
 
   {
     id: "c3",
-    title: "Agile Management Certification",
-    organization: "Stanford Continuing Studies",
-    date: "2021",
+    title: "Certificate",
+    organization: "",
+    date: "2012",
     imageUrl: "./Certificate/certificate10.jpeg"
   },
   {
