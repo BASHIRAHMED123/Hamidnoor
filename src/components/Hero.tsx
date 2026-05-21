@@ -159,7 +159,7 @@ export const Hero = ({ data }: { data: any }) => {
         >
           <div className="relative z-10 bg-white p-4 rounded-2xl shadow-2xl shadow-brand-900/20">
             <img
-              src="./Certificate/certificate31.jpeg"
+              src="./Certificate/certificate31.jpg"
               alt="Hamid Noor Executive Portrait"
               className="w-full h-auto rounded-xl object-cover grayscale hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"

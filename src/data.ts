@@ -228,6 +228,70 @@ export const data: PortfolioData = {
     date: "",
     imageUrl: "./Certificate/certificate23.jpeg"
   
+  },
+  {
+    id: "c23",
+    title: " Certificate ",
+    organization: "1gnition Pro School of Entrepreneures",
+    date: "",
+    imageUrl: "./Certificate/certificate32.jpeg"
+  
+  },
+  {
+    id: "c24",
+    title: " Group Pic ",
+    organization: "1gnition Pro School of Entrepreneures",
+    date: "",
+    imageUrl: "./Certificate/certificate33.jpeg"
+  
+  },
+  {
+    id: "c25",
+    title: " Certificate ",
+    organization: "",
+    date: "",
+    imageUrl: "./Certificate/certificate35.jpeg"
+  
+  },
+  {
+    id: "c26",
+    title: " Awards ",
+    organization: "UET Lahore",
+    date: "",
+    imageUrl: "./Certificate/certificate37.jpeg"
+  
+  },
+  {
+    id: "c27",
+    title: " Public Speaking ",
+    organization: "UET Lahore",
+    date: "",
+    imageUrl: "./Certificate/certificate38.jpeg"
+  
+  },
+  {
+    id: "c28",
+    title: " Public Speaking ",
+    organization: "Youth Organization Pakistan Punjab",
+    date: "",
+    imageUrl: "./Certificate/certificate39.jpeg"
+  
+  },
+  {
+    id: "c29",
+    title: " Public Speaking ",
+    organization: "Youth Organization Pakistan Punjab",
+    date: "",
+    imageUrl: "./Certificate/certificate40.jpeg"
+  
+  },
+  {
+    id: "c30",
+    title: " Public Speaking ",
+    organization: "Youth Organization Pakistan Punjab",
+    date: "",
+    imageUrl: "./Certificate/certificate41.jpeg"
+  
   }
 ]
 };
