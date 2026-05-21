@@ -141,3 +141,4 @@ export const Certificates = ({ data }: { data: Certificate[] }) => {
     </section>
   );
 };
+  
