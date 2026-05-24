@@ -71,11 +71,77 @@ export const data: PortfolioData = {
   ],
  certificates: [
   {
+    id: "c31",
+    title: "AKHUWAT",
+    organization: "AKHUWAT Foundation",
+    date: "April, 2026",
+    imageUrl: "./Certificate/certificate42.jpeg"
+  },
+  {
+    id: "c32",
+    title: "Appointment Letter",
+    organization: "Steadfast youth network",
+    date: "13 May, 2026",
+    imageUrl: "./Certificate/certificate43.jpeg"
+  },
+  
+  
+  {
+    id: "c9",
+    title: " certificate",
+    organization: "National Productivity Orgnization",
+    date: "May 01, 2026",
+    imageUrl: "./Certificate/certificate7.jpeg"
+  },
+
+  {
     id: "c1",
     title: "Certificate of Appointment",
     organization: "Chairman Education Pogram",
     date: "10 April, 2026",
     imageUrl: "./Certificate/certificate1.jpeg"
+  },
+  {
+    id: "c4",
+    title: "Membership Certificate",
+    organization: "Smart Entrepreneure Society",
+    date: "2026-2027",
+    imageUrl: "./Certificate/certificate2.jpeg"
+  },
+  {
+    id: "c6",
+    title: "Silver Membership Certificate",
+    organization: "Smart Entrepreneure Society",
+    date: "2026-2027",
+    imageUrl: "./Certificate/certificate4.jpeg"
+  }, 
+  {
+    id: "c5",
+    title: "Silver Membership Certificate",
+    organization: "Smart Entrepreneure Society",
+    date: "2026-2027",
+    imageUrl: "./Certificate/certificate3.jpeg"
+  },
+   {
+    id: "c19",
+    title: "Certificate",
+    organization: "LEOPARDSHIP",
+    date: "1st February, 2025",
+    imageUrl: "./Certificate/certificate20.jpeg"
+  },
+   {
+    id: "c42",
+    title: "Marksheet 2001",
+    organization: "",
+    date: "20-11-2015",
+    imageUrl: "./Certificate/certificate24.jpeg"
+  },
+  {
+    id: "c15",
+    title: " University Transcipt",
+    organization: "UET Lahore",
+    date: "2014",
+    imageUrl: "./Certificate/certificate15.jpeg"
   },
 
   {
@@ -93,27 +159,7 @@ export const data: PortfolioData = {
     date: "2012",
     imageUrl: "./Certificate/certificate10.jpeg"
   },
-  {
-    id: "c4",
-    title: "Membership Certificate",
-    organization: "Smart Entrepreneure Society",
-    date: "2026-2027",
-    imageUrl: "./Certificate/certificate2.jpeg"
-  },
-  {
-    id: "c5",
-    title: "Silver Membership Certificate",
-    organization: "Smart Entrepreneure Society",
-    date: "2026-2027",
-    imageUrl: "./Certificate/certificate3.jpeg"
-  },
-  {
-    id: "c6",
-    title: "Silver Membership Certificate",
-    organization: "Smart Entrepreneure Society",
-    date: "2026-2027",
-    imageUrl: "./Certificate/certificate4.jpeg"
-  },
+ 
   {
     id: "c7",
     title: "Marksheet 2001",
@@ -122,48 +168,11 @@ export const data: PortfolioData = {
     imageUrl: "./Certificate/certificate5.jpeg"
   },
   {
-    id: "c8",
-    title: "College Character certificate",
-    organization: "Garrison Postgraduate College(M) Lahore Cantt",
-    date: "2009",
-    imageUrl: "./Certificate/certificate6.jpeg"
-  }
-  ,
-  {
-    id: "c9",
-    title: " certificate",
-    organization: "National Productivity Orgnization",
-    date: "May 01, 2026",
-    imageUrl: "./Certificate/certificate7.jpeg"
-  }
-  ,
-  {
-    id: "c10",
-    title: " certificate",
-    organization: "UET Lahore",
-    date: "6th-7th December, 2012",
-    imageUrl: "./Certificate/certificate8.jpeg"
-  },
-  {
-    id: "c11",
-    title: " certificate",
-    organization: "Fatima Foundation",
-    date: "24th March, 2009",
-    imageUrl: "./Certificate/certificate9.jpeg"
-  },
-  {
-    id: "c12",
-    title: "Intrenship certificate",
-    organization: "Al-Khawarizmi Institute of CS university of Technology",
-    date: "August 10, 2012",
-    imageUrl: "./Certificate/certificate11.jpeg"
-  },
-  {
-    id: "c13",
-    title: " Provisional certificate",
-    organization: "UET Lahoew",
-    date: "04/03/2015",
-    imageUrl: "./Certificate/certificate12.jpeg"
+    id: "c17",
+    title: " Certificate",
+    organization: "IB&M",
+    date: "2ND MAY, 2023",
+    imageUrl: "./Certificate/certificate17.jpeg"
   },
   {
     id: "c14",
@@ -173,46 +182,11 @@ export const data: PortfolioData = {
     imageUrl: "./Certificate/certificate13.jpeg"
   },
   {
-    id: "c15",
-    title: " University Transcipt",
-    organization: "UET Lahore",
-    date: "2009",
-    imageUrl: "./Certificate/certificate15.jpeg"
-  },
-  {
-    id: "c16",
-    title: " Distinction Certificate",
-    organization: "Mansoor Academy",
-    date: "2005",
-    imageUrl: "./Certificate/certificate16.jpeg"
-  },
-  {
-    id: "c17",
-    title: " Certificate",
-    organization: "IB&M",
-    date: "2ND MAY, 2003",
-    imageUrl: "./Certificate/certificate17.jpeg"
-  },
-  {
-    id: "c18",
-    title: "Marksheet Certificate",
-    organization: "Fedral Board Of Islamabad",
-    date: "2009",
-    imageUrl: "./Certificate/certificate18.jpeg"
-  },
-  {
-    id: "c19",
-    title: "Certificate",
-    organization: "LEOPARDSHIP",
-    date: "1st February, 2025",
-    imageUrl: "./Certificate/certificate20.jpeg"
-  },
-  {
-    id: "c20",
-    title: " Certificate",
-    organization: "Fatima Foundation",
-    date: "2009",
-    imageUrl: "./Certificate/certificate21.jpeg"
+    id: "c13",
+    title: " Provisional certificate",
+    organization: "UET Lahoew",
+    date: "04/03/2015",
+    imageUrl: "./Certificate/certificate12.jpeg"
   },
   {
     id: "c21",
@@ -221,6 +195,64 @@ export const data: PortfolioData = {
     date: "31st August 2013",
     imageUrl: "./Certificate/certificate22.jpeg"
   },
+ 
+  {
+    id: "c10",
+    title: " certificate",
+    organization: "UET Lahore",
+    date: "6th-7th December, 2012",
+    imageUrl: "./Certificate/certificate8.jpeg"
+  },
+  
+  {
+    id: "c12",
+    title: "Intrenship certificate",
+    organization: "Al-Khawarizmi Institute of CS university of Technology",
+    date: "August 10, 2012",
+    imageUrl: "./Certificate/certificate11.jpeg"
+  },
+   {
+    id: "c8",
+    title: "College Character certificate",
+    organization: "Garrison Postgraduate College(M) Lahore Cantt",
+    date: "2009",
+    imageUrl: "./Certificate/certificate6.jpeg"
+  }
+  ,
+  {
+    id: "c11",
+    title: " certificate",
+    organization: "Fatima Foundation",
+    date: "24th March, 2009",
+    imageUrl: "./Certificate/certificate9.jpeg"
+  },
+   {
+    id: "c18",
+    title: "Marksheet Certificate",
+    organization: "Fedral Board Of Islamabad",
+    date: "2009",
+    imageUrl: "./Certificate/certificate18.jpeg"
+  },
+  
+  {
+    id: "c20",
+    title: " Certificate",
+    organization: "Fatima Foundation",
+    date: "2009",
+    imageUrl: "./Certificate/certificate21.jpeg"
+  },
+  {
+    id: "c16",
+    title: " Distinction Certificate",
+    organization: "Mansoor Academy",
+    date: "2005",
+    imageUrl: "./Certificate/certificate16.jpeg"
+  },
+  
+ 
+ 
+  
+  
   {
     id: "c22",
     title: " Certificate ",
