@@ -35,7 +35,7 @@ export const data: PortfolioData = {
     title: "CEO, Alpha Solutions (Lahore)",
     location: "Lahore, Pakistan",
     tagline: "Empowering businesses through digital excellence and visionary leadership.",
-    bio: "Hamid Noor is a seasoned executive and the CEO of Alpha Solutions, a leading digital consultancy in Lahore. With over two decades of experience in the tech industry, he has spearheaded numerous large-scale digital transformation projects, helping organizations navigate the complexities of the modern business landscape.",
+    bio: "Hamid Noor is a seasoned executive and the CEO of Alpha Solutions, a leading 360 business solutions through AI in Lahore. With over two decades of experience in the tech industry, he has spearheaded numerous large-scale digital transformation projects, helping organizations navigate the complexities of the modern business landscape.",
     leadershipOverview: "A visionary leader committed to fostering a culture of innovation, integrity, and excellence. Under his guidance, Alpha Solutions has grown from a local startup to a regional powerhouse in custom software development and enterprise solutions.",
     careerSummary: "Starting as a lead architect, Hamid transitioned into executive management with a focus on sustainable growth and client-centric value delivery. He has held various leadership roles in both domestic and international tech firms before founding Alpha Solutions."
   },

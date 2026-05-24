@@ -137,7 +137,7 @@ export const Hero = ({ data }: { data: any }) => {
           
           <div className="mt-12 flex items-center gap-10">
             <div>
-              <div className="text-3xl font-display font-bold text-brand-900 tracking-tight">10+</div>
+              <div className="text-3xl font-display font-bold text-brand-900 tracking-tight">15+</div>
               <div className="text-sm text-slate-500 uppercase tracking-widest font-medium">Years CEO</div>
             </div>
             <div>

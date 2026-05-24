@@ -88,6 +88,7 @@ export const Footer = ({ data }: { data: any }) => {
                   </div>
                 </li>
 
+                {/* ✅ ONLY CHANGED THIS LINE */}
                 <li className="flex items-start gap-3 group cursor-pointer">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-900 group-hover:bg-brand-900 group-hover:text-white transition-colors">
                     <Phone size={16} />
@@ -99,7 +100,9 @@ export const Footer = ({ data }: { data: any }) => {
                     </span>
 
                     <a
-                      href="tel:+923229481531"
+                      href="https://wa.me/923229481531?text=Hello%20Hamid%20Noor"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-slate-900 font-medium text-sm hover:text-brand-900 transition-colors"
                     >
                       +92 3229481531
@@ -191,7 +194,9 @@ export const Footer = ({ data }: { data: any }) => {
                     </span>
 
                     <a
-                      href="tel:+923229481531"
+                      href="https://wa.me/923229481531?text=Hello%20Alpha%20Solutions"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-slate-900 font-medium text-sm hover:text-brand-900 transition-colors"
                     >
                       +92 322 9481531
@@ -202,29 +207,21 @@ export const Footer = ({ data }: { data: any }) => {
               </ul>
             </div>
 
-            {/* Navigation */}
-            <div>
-              <h4 className="font-display font-bold text-brand-900 mb-6 uppercase tracking-widest text-xs">
-                Navigation
-              </h4>
+            <li className="flex items-start gap-3 group">
+              <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-900 group-hover:bg-brand-900 group-hover:text-white transition-colors">
+                <MapPin size={16} />
+              </div>
 
-              <ul className="space-y-3">
-                {["Home", "Profile", "Achievements", "Certificates"].map(
-                  (item) => (
-                    <li key={item}>
-                      <a
-                        href={`#${item.toLowerCase()}`}
-                        className="text-slate-500 hover:text-brand-900 text-sm font-medium transition-colors flex items-center gap-2 group"
-                      >
-                        <span className="w-1.5 h-1.5 bg-brand-200 rounded-full group-hover:bg-brand-900 transition-colors"></span>
+              <div>
+                <span className="block text-[10px] uppercase tracking-widest font-bold text-slate-400">
+                  Registered Company
+                </span>
 
-                        {item}
-                      </a>
-                    </li>
-                  )
-                )}
-              </ul>
-            </div>
+                <span className="text-slate-900 font-medium text-sm">
+                  Hamid Noor (SMC-Pvt.) Ltd
+                </span>
+              </div>
+            </li>
 
           </div>
         </div>
@@ -239,17 +236,11 @@ export const Footer = ({ data }: { data: any }) => {
 
           <div className="flex items-center gap-8 text-xs font-bold uppercase tracking-widest text-slate-400">
 
-            <a
-              href="#"
-              className="hover:text-brand-900 transition-colors"
-            >
+            <a href="#" className="hover:text-brand-900 transition-colors">
               Privacy Policy
             </a>
 
-            <a
-              href="#"
-              className="hover:text-brand-900 transition-colors"
-            >
+            <a href="#" className="hover:text-brand-900 transition-colors">
               Terms of Service
             </a>
 
