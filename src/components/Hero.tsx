@@ -95,8 +95,10 @@ export const Hero = ({ data }: { data: any }) => {
       {/* Dynamic Background Elements */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-brand-900/5 skew-x-12 transform translate-x-20 hidden lg:block" />
       <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-brand-200/20 rounded-full blur-3xl" />
-      
+
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+        
+        {/* Left Content */}
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
@@ -109,16 +111,16 @@ export const Hero = ({ data }: { data: any }) => {
             </span>
             CEO Portfolio
           </div>
-          
-          <h1 className="text-6xl md:text-7xl font-display font-bold text-brand-900 leading-[1.1] mb-6">
+
+          <h1 className="text-5xl md:text-7xl font-display font-bold text-brand-900 leading-[1.1] mb-6">
             Building the <br />
             <span className="text-brand-600 italic">Future</span> of Tech.
           </h1>
-          
-          <p className="text-xl text-slate-600 leading-relaxed mb-10 max-w-lg">
+
+          <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-10 max-w-lg">
             {data.personalInfo.tagline}
           </p>
-          
+
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <a
               href="#profile"
@@ -127,53 +129,67 @@ export const Hero = ({ data }: { data: any }) => {
               View Profile
               <ArrowRight size={20} />
             </a>
+
             <a
               href="#achievements"
-              className="w-full sm:w-auto bg-white text-brand-900 border border-brand-200 px-8 py-4 rounded-full font-semibold hover:bg-brand-50 transition-all"
+              className="w-full sm:w-auto bg-white text-brand-900 border border-brand-200 px-8 py-4 rounded-full font-semibold hover:bg-brand-50 transition-all text-center"
             >
               View Achievements
             </a>
           </div>
-          
-          <div className="mt-12 flex items-center gap-10">
+
+          <div className="mt-12 flex flex-wrap items-center gap-8">
             <div>
-              <div className="text-3xl font-display font-bold text-brand-900 tracking-tight">15+</div>
-              <div className="text-sm text-slate-500 uppercase tracking-widest font-medium">Years CEO</div>
+              <div className="text-3xl font-display font-bold text-brand-900 tracking-tight">
+                15+
+              </div>
+              <div className="text-sm text-slate-500 uppercase tracking-widest font-medium">
+                Years CEO
+              </div>
             </div>
+
             <div>
-              <div className="text-3xl font-display font-bold text-brand-900 tracking-tight">500+</div>
-              <div className="text-sm text-slate-500 uppercase tracking-widest font-medium">Projects</div>
+              <div className="text-3xl font-display font-bold text-brand-900 tracking-tight">
+                500+
+              </div>
+              <div className="text-sm text-slate-500 uppercase tracking-widest font-medium">
+                Projects
+              </div>
             </div>
+
             <div>
-              <div className="text-3xl font-display font-bold text-brand-900 tracking-tight">Lahore</div>
-              <div className="text-sm text-slate-500 uppercase tracking-widest font-medium">HQ Base</div>
+              <div className="text-3xl font-display font-bold text-brand-900 tracking-tight">
+                Lahore
+              </div>
+              <div className="text-sm text-slate-500 uppercase tracking-widest font-medium">
+                HQ Base
+              </div>
             </div>
           </div>
         </motion.div>
 
+        {/* Right Image */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
-          className="relative hidden lg:block"
+          className="relative flex justify-center"
         >
-          <div className="relative z-10 bg-white p-4 rounded-2xl shadow-2xl shadow-brand-900/20">
+          <div className="relative z-10 bg-white p-4 rounded-2xl shadow-2xl shadow-brand-900/20 max-w-md w-full">
             <img
               src="./Certificate/certificate31.jpg"
               alt="Hamid Noor Executive Portrait"
-              className="w-full h-auto rounded-xl object-cover grayscale hover:grayscale-0 transition-all duration-700"
-              referrerPolicy="no-referrer"
+              className="w-full h-auto rounded-xl object-cover transition-all duration-700"
+               referrerPolicy="no-referrer"
             />
           </div>
+
+          {/* Decorative Elements */}
+          <div className="absolute -top-6 -right-6 w-32 h-32 border-t-4 border-r-4 border-brand-900/20 rounded-tr-3xl hidden md:block" />
+          <div className="absolute -bottom-6 -left-6 w-32 h-32 border-b-4 border-l-4 border-brand-900/20 rounded-bl-3xl hidden md:block" />
+
+          {/* Experience Badge */}
           
-          {/* Decorative elements */}
-          <div className="absolute -top-6 -right-6 w-32 h-32 border-t-4 border-r-4 border-brand-900/20 rounded-tr-3xl" />
-          <div className="absolute -bottom-6 -left-6 w-32 h-32 border-b-4 border-l-4 border-brand-900/20 rounded-bl-3xl" />
-          
-          <div className="absolute top-1/2 -right-12 transform -translate-y-1/2 bg-brand-900 text-white p-6 rounded-2xl shadow-xl flex flex-col items-center">
-             <span className="text-xs uppercase tracking-tighter mb-1 opacity-70">Experience</span>
-             <span className="text-2xl font-bold font-display">20+ YRS</span>
-          </div>
         </motion.div>
       </div>
     </section>

@@ -28,7 +28,7 @@ export const About = ({ data }: { data: any }) => {
                 <div className="p-8 bg-brand-50/50 rounded-2xl border-l-[6px] border-brand-900 relative">
                   <Quote className="absolute top-4 right-4 text-brand-200" size={40} />
                   <p className="italic text-brand-900 font-medium relative z-10">
-                    "True leadership isn't about being in charge. It's about taking care of those in your charge and delivering sustainable value to stakeholders."
+                    "Each of you is a shepherd, and each of you is responsible for his flock. — Prophet Muhammad ﷺ (Sahih al-Bukhari)"
                   </p>
                 </div>
               </div>
