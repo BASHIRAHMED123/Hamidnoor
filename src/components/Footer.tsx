@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Linkedin, Twitter, MapPin, Phone, ArrowUp, Facebook } from 'lucide-react';
+import { Mail, Linkedin, Facebook, MapPin, Phone, ArrowUp } from 'lucide-react';
 
 export const Footer = ({ data }: { data: any }) => {
   const currentYear = new Date().getFullYear();
@@ -48,12 +48,14 @@ export const Footer = ({ data }: { data: any }) => {
                 },
               ].map((social, i) => (
                 <a
-                  key={i}
-                  href={social.href}
-                  className="w-10 h-10 bg-slate-50 text-slate-400 rounded-full flex items-center justify-center hover:bg-brand-900 hover:text-white transition-all shadow-sm"
-                >
-                  {social.icon}
-                </a>
+  key={i}
+  href={social.href}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-10 h-10 bg-slate-50 text-slate-400 rounded-full flex items-center justify-center hover:bg-brand-900 hover:text-white transition-all shadow-sm"
+>
+  {social.icon}
+</a>
               ))}
             </div>
           </div>
