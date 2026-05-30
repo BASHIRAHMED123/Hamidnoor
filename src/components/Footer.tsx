@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Linkedin, Twitter, MapPin, Phone, ArrowUp } from 'lucide-react';
+import { Mail, Linkedin, Twitter, MapPin, Phone, ArrowUp, Facebook } from 'lucide-react';
 
 export const Footer = ({ data }: { data: any }) => {
   const currentYear = new Date().getFullYear();
@@ -40,8 +40,8 @@ export const Footer = ({ data }: { data: any }) => {
 
             <div className="flex gap-4">
               {[
-                { icon: <Linkedin size={20} />, href: "#" },
-                { icon: <Twitter size={20} />, href: "#" },
+                { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/hamid-noor-82a788155?utm_source=share_via&utm_content=profile&utm_medium=member_ios" },
+                { icon: <Facebook size={20} />, href: "https://www.facebook.com/share/1ERG5zZgc1/" },
                 {
                   icon: <Mail size={20} />,
                   href: "mailto:hamidnoor129@gmail.com",
@@ -88,7 +88,7 @@ export const Footer = ({ data }: { data: any }) => {
                   </div>
                 </li>
 
-                {/* ✅ ONLY CHANGED THIS LINE */}
+                {/* */}
                 <li className="flex items-start gap-3 group cursor-pointer">
                   <div className="w-8 h-8 bg-brand-50 rounded-lg flex items-center justify-center text-brand-900 group-hover:bg-brand-900 group-hover:text-white transition-colors">
                     <Phone size={16} />
